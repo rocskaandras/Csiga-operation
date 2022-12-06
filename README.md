@@ -1,2 +1,2 @@
 # Csiga-operation
-órai munkák
+Papdi Olivér ; Rocska András Project Munka

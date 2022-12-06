@@ -1,0 +1,54 @@
+
+body {
+  background-image: url('hatter.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+
+.tacsi{
+  text-align: right;
+}
+
+.tacsko{
+  font-size: 50px;
+  margin: auto;
+}
+
+.tacstul{
+ text-align: center;
+}
+
+.bevezeto{
+font-size: 20px;
+}
+
+.szoveg{
+  text-align: center;
+  font-size: 60px;
+}
+
+.bevezeto{
+  font-size: 40px;
+  text-align: center;
+}
+
+.table{
+  margin: auto;
+  padding-top: 30px;
+}
+
+.logo{
+padding-top: 30px;
+margin: auto;
+text-align: center;
+}
+
+.piros{
+color: red;
+font-size: 40px;
+text-align: center;
+
+}
