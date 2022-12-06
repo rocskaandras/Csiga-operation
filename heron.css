@@ -1,27 +1,28 @@
 
 h1{
-    text-align: center;
+    text-align: left;
     text-decoration: underline;
 }
 .felsorolas{
     text-align: left;
 }
-
+.leiras{
+	width: 880px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
 
 table, th, td, tr{
     border: 1px solid black;
-    margin: left;
     background-color: antiquewhite;
     box-shadow: 7px 7px 7px gray;
     overflow: hidden;
-
+    
 }
-img{
-    margin: auto;
-    width: auto;
-    height: auto;
 
-}
 .center {
     display: block;
     margin-left: auto;
@@ -32,28 +33,16 @@ img{
 .kepkeretk {
     width: 375px;
     float: right;
-    text-align: center;
+    text-align: right;
     font-size: 75%;
     padding: 0px 5px 5px;
     margin-left: 10px;
     border-radius: 25px;
     overflow: hidden;
+    background-color: bisque;
     box-shadow: 10px 10px 10px gray;  
-    background-color: antiquewhite;
   }
-.kep2{
 
-    width: 375px;
-    float: right;
-    text-align: center;
-    font-size: 75%;
-    padding: 0px 5px 5px;
-    margin-left: 10px;
-    border-radius: 25px;
-    overflow: hidden;
-    box-shadow: 10px 10px 10px gray;  
-    background-color: antiquewhite;
-}
 @keyframes color {
   0%    {background: rgb(239, 209, 169) ;}
   20%  { background: beige; }
@@ -64,9 +53,8 @@ img{
 }
 
 body {
-  background: #33CCCC;
   animation: color 9s infinite linear;
-  text-align: center;
+  text-align: left;
   padding: 2em;
 }
 
@@ -75,4 +63,14 @@ body {
 
 .bef{
     text-align: left;
+}
+.tacs{
+    width: 375px;
+    font-size: 75%;
+    padding: 0px 5px 5px;
+    margin-left: 10px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px gray;  
+    background-color: antiquewhite;
 }
