@@ -1,0 +1,78 @@
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.felsorolas{
+    text-align: left;
+}
+
+
+table, th, td, tr{
+    border: 1px solid black;
+    margin: left;
+    background-color: antiquewhite;
+    box-shadow: 7px 7px 7px gray;
+    overflow: hidden;
+
+}
+img{
+    margin: auto;
+    width: auto;
+    height: auto;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 250px;
+}
+.kepkeretk {
+    width: 375px;
+    float: right;
+    text-align: center;
+    font-size: 75%;
+    padding: 0px 5px 5px;
+    margin-left: 10px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px gray;  
+    background-color: antiquewhite;
+  }
+.kep2{
+
+    width: 375px;
+    float: right;
+    text-align: center;
+    font-size: 75%;
+    padding: 0px 5px 5px;
+    margin-left: 10px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px gray;  
+    background-color: antiquewhite;
+}
+@keyframes color {
+  0%    {background: rgb(239, 209, 169) ;}
+  20%  { background: beige; }
+  40%  { background: bisque; }
+  60%  { background: burlywood; }
+  80%  { background: tan; }
+  100% { background: 	wheat; }
+}
+
+body {
+  background: #33CCCC;
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
+
+
+
+
+.bef{
+    text-align: left;
+}
